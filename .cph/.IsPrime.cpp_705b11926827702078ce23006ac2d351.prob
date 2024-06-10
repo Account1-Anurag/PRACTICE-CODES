@@ -1,0 +1,1 @@
+{"name":"Local: IsPrime","url":"c:\\Users\\HP LAPTOP\\Desktop\\C++\\IsPrime.cpp","tests":[{"id":1702017244183,"input":"2, 4, 6, 8, 12","output":"5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\HP LAPTOP\\Desktop\\C++\\IsPrime.cpp","group":"local","local":true}

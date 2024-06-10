@@ -1,0 +1,1 @@
+{"name":"Local: bit++CF","url":"c:\\Users\\HP LAPTOP\\Desktop\\C++\\bit++CF.cpp","tests":[{"id":1698905585572,"input":"1\n++X","output":"1"},{"id":1698905610275,"input":"2\nX++\n--X","output":"0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\HP LAPTOP\\Desktop\\C++\\bit++CF.cpp","group":"local","local":true}

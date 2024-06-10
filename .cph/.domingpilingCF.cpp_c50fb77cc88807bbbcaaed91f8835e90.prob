@@ -1,0 +1,1 @@
+{"name":"Local: domingpilingCF","url":"c:\\Users\\HP LAPTOP\\Desktop\\C++\\domingpilingCF.cpp","tests":[{"id":1698991932810,"input":"2 4\n","output":"4"},{"id":1698991946048,"input":"3 3","output":"4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\HP LAPTOP\\Desktop\\C++\\domingpilingCF.cpp","group":"local","local":true}
