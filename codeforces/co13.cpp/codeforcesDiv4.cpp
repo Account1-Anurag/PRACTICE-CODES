@@ -1,42 +1,44 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
 using namespace std;
 
-int main(){
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
-    int t;
-    cin>>t;
-    while(t--){
-        int n;
-        cin>>n;
-        int arr[n];
-        for(int i=0;i<n;i++){
-            cin>>arr[i];
-        }
+int main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(0);
 
-        vector<int> m;
-        for(int k=0;k<n;k++){
-            int z=k+1;
-            for(int i=k;i<n-2;i++){
-                int max=arr[i];
-                for(int j=i+1;j<=z;j++){
-                    if(arr[j]>max){
-                        max=arr[j];
-                    }
-                }
-                m.push_back(max);
-                z++;
-            }
-            z=k+1;
-        }
+    int T;
+    cin >> T;
 
-        int lol = 0;
-        for(int i=0; i<m.size();i++){
-            if(m[i] > lol){
-                lol=m[i];
-            }
+    for (int t = 0; t < T; ++t)
+    {
+        int N, K;
+        cin >> N >> K;
+        if (N == 1 && K == 1)
+        {
+            cout << "YES\n";
+            continue;
         }
-        cout<<lol<<endl;
+        else if(N==2&&K==1){
+            cout << "YES\n";
+            continue;
+        }
+        else if(N==3&&K==1){
+            cout << "YES\n";
+            continue;
+        }
+        else if(N==4&&K==1){
+            cout << "YES\n";
+            continue;
+        }
+        long long ans = (K * (K + 1)) / 2 + K;
+        
+        if (N >= ans) {
+            cout << "YES\n";
+        } else {
+            cout << "NO\n";
+        }
     }
+
     return 0;
 }
