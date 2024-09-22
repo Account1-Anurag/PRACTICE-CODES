@@ -9,6 +9,8 @@ bool isprime(int x){
 }
 
 int main(){
-    cout<<isprime(9);
+    int n;
+    cin>>n;
+    cout<<isprime(n);
     return 0;
 }
