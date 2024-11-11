@@ -64,6 +64,8 @@ using namespace std;
 int main() {
     int t;
     cin >> t;
+    int j;
+    int p;
     
     while (t--) {
         int a, b, c, d;
