@@ -45,6 +45,8 @@ double eps = 1e-12;
 #define sz(x) ((ll)(x).size())
 int main(){
     fast_cin();
-    
+    int a;
+    cin>>a;
+    cout<<a<<"\n";
     return 0;
 }
