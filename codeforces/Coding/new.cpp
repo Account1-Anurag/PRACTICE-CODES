@@ -47,6 +47,8 @@ int main(){
     fast_cin();
     int a;
     cin>>a;
+    int v;
+    cin>>v;
     cout<<a<<"\n";
     return 0;
 }
